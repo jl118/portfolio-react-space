@@ -28,17 +28,17 @@ function App() {
 
           <AnimatePresence exitBeforeEnter>
             <Switch location={location} key={location.pathname}>
-              <Route exact path="/" component={Main} />
+              <Route exact path="/portfolio-react-space" component={Main} />
 
-              <Route exact path="/contact" component={ContactPage} />
+              <Route exact path="/portfolio-react-space/contact" component={ContactPage} />
 
-              <Route exact path="/about" component={AboutPage} />
+              <Route exact path="/portfolio-react-space/about" component={AboutPage} />
 
-              <Route exact path="/blog" component={BlogPage} />
+              <Route exact path="/portfolio-react-space/blog" component={BlogPage} />
 
-              <Route exact path="/work" component={WorkPage} />
+              <Route exact path="/portfolio-react-space/work" component={WorkPage} />
 
-              <Route exact path="/skills" component={MySkillsPage} />
+              <Route exact path="/portfolio-react-space/skills" component={MySkillsPage} />
             </Switch>
           </AnimatePresence>
         </Suspense>
