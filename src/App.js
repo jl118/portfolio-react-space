@@ -1,4 +1,4 @@
-import { Switch, Route, useLocation } from "react-router-dom";
+import { HashRouter as Switch, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { lazy, Suspense } from "react";
 import GlobalStyle from "./globalStyles";
